@@ -13,11 +13,16 @@ db.users.insertMany([
   { userid: 3, name: "sanjay", email: "sanjayZen@gmail.com" },
   { userid: 4, name: "MohammedAjay", email: "MohammedAjayZen@gmail.com" },
 ]);
+
+
 db.mentors.insertMany([
   { mentorid: 1, name: "SanjayPrasath", email: "SanjayprasathMentor@gmail.com", mentees: 40 },
   { mentorid: 2, name: "Deepika", email: "DeepikaMentor@gmail.com", mentees: 34 },
   { mentorid: 3, name: "RupanChakaravarthy", email: "RupanMentor@gmail.com", mentees: 52 },
 ]);
+
+
+
 db.topics.insertMany([
   { topics: "Html", monthofTeaching: "July" },
   { topics: "Css", monthofTeaching: "August" },
@@ -27,6 +32,8 @@ db.topics.insertMany([
   { topics: "MongoDB", monthofTeaching: "November" },
   { topics: "Nodejs", monthofTeaching: "December" },
 ]);
+
+
 db.task.insertMany([
   { task: "Html", monthofTeaching: "August" },
   { task: "Css", monthofTeaching: "september" },
